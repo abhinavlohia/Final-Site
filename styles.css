@@ -453,8 +453,7 @@ body {
   line-height: 4.2rem;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.315);
 }
-
-.red-box-right-text-container a:hover {
+d .red-box-right-text-container a:hover {
   color: black;
 }
 
