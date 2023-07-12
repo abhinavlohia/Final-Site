@@ -49,7 +49,6 @@ body {
 
 .slider-wrapper {
   position: relative;
-  /* border: 2px red solid; */
   height: 57rem;
   width: 112rem;
   margin: 0 auto; /**/
@@ -60,7 +59,6 @@ body {
   width: 112rem;
   display: flex;
   aspect-ratio: 16/9;
-  /* border: 2px green solid; */
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -166,7 +164,6 @@ body {
 .short-heading {
   font-size: 1.3rem;
   padding-left: 25rem;
-  /* padding-top: -30rem; */
   margin: 2.5rem;
   margin-left: 29rem;
   font-family: "Montserrat", sans-serif;
@@ -187,7 +184,6 @@ body {
   text-align: left;
   padding-left: 25rem;
   margin: 3rem;
-  /* margin-left: 33vw; */
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #fff;
@@ -201,7 +197,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
 /* 1-------- */
 
 .normal-container {
@@ -211,20 +206,18 @@ body {
 
 .left-image {
   object-fit: cover;
-  /* border:2px red solid; */
   height: 45rem;
   width: 56rem;
   overflow: hidden;
   position: relative;
 }
 
-.left-image img{
-  max-width: 100%;
+.left-image img {
+  max-width: 112%;
   max-height: 100%;
 }
 
 .left-image-number {
-  /* width: 5rem; */
   font-size: 8.2rem;
   text-align: right;
   font-family: "Montserrat", sans-serif;
@@ -238,15 +231,13 @@ body {
   z-index: 1;
 }
 
-.right-content{
-  /* border: 1px green solid; */
+.right-content {
   height: 45rem;
   width: 56rem;
   z-index: 5;
 }
 
 .right-content-heading {
-
   padding-top: 5rem;
   width: 30rem;
   font-size: 2.8rem;
@@ -262,7 +253,7 @@ body {
 
 .right-content-content {
   padding-top: 4rem;
-  width: 30rem;
+  width: 33rem;
   font-size: 3.1rem;
   text-align: left;
   padding-left: 8rem;
@@ -280,7 +271,105 @@ body {
 
 /* 2-------- */
 
+.red-box {
+  object-fit: cover;
+  height: 45rem;
+  width: 56rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #e31d3b;
+}
 
+.red-box img {
+  height: 7rem;
+  width: 8rem;
+  position: flex;
+  padding-left: 7rem;
+  padding-top: 7rem;
+}
+
+.red-box-text1 {
+  height: 16rem;
+  width: 34rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.2rem;
+  padding-left: 9rem;
+  padding-top: 2.3rem;
+}
+
+.red-box-text2 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.2rem;
+  padding-left: 9rem;
+  padding-top: 0.5rem;
+}
+
+.red-box-text3 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.1rem;
+  padding-left: 9rem;
+}
+
+.navbar1 {
+  height: 45rem;
+  width: 56rem;
+}
+
+.navbar1 a:hover,
+.navbar1 a:active {
+  border-bottom: 3px solid #e31d3b;
+}
+
+.navbar1 ul {
+  padding-top: 7rem;
+}
+
+.navbar1 a {
+  text-transform: uppercase;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #8d8c8c;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: 3.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.navbar1 a:hover {
+  color: #555454;
+}
+
+.navbar1-card {
+  margin-left: 6rem;
+  margin-top: 5rem;
+  height: 26rem;
+  width: 34rem;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #787777;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.8rem;
+}
 
 /* 3-------- */
 
+/* 4-------- */
