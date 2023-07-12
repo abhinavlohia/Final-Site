@@ -2,8 +2,8 @@ html,
 body {
   scroll-behavior: smooth;
   font-size: 16px;
-  height: 70rem;
-  width: 112rem;
+  /* height: 70rem;
+  width: 112rem; */
   /* border: 2px red solid; */
 }
 
