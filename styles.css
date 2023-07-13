@@ -51,7 +51,7 @@ body {
   position: relative;
   height: 57rem;
   width: 112rem;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .slider {
@@ -770,6 +770,13 @@ select {
 
 .btn:hover {
   background: #6b7073;
+}
+
+.info-img img {
+  height: 30rem;
+  width: 30rem;
+  z-index: 1;
+  margin-left: 4rem;
 }
 
 .blank-container {
