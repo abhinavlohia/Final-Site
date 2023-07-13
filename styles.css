@@ -550,3 +550,59 @@ d .red-box-right-text-container a:hover {
 }
 
 /* 7-------- */
+
+.gallery3 {
+  display: flex;
+  flex-direction: row;
+  /* border: green solid; */
+  height: 22.8rem;
+  width: 112rem;
+}
+
+.image-container2 {
+  /* border: green solid; */
+  height: 18.1rem;
+  width: 23.5rem;
+  display: flex;
+  flex-direction: column;
+  color: #484848;
+  line-height: 1.8rem;
+  padding-left: 5rem;
+  padding-top: 6rem;
+}
+
+.image-container2 span {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.image-container2-content {
+  width: 16rem;
+  /* border: red solid; */
+}
+
+.image-container2-heading {
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #989898;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+}
+
+.red-strip2 {
+  height: 0.35rem;
+  width: 2.8rem;
+  background-color: #e31d3b;
+}
+
+/* 8-------- */
+
+
+
+/* 9-------- */
+
+
