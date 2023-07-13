@@ -51,7 +51,7 @@ body {
   position: relative;
   height: 57rem;
   width: 112rem;
-  margin: 0 auto; /**/
+  margin: 0 auto; 
 }
 
 .slider {
@@ -682,3 +682,141 @@ d .red-box-right-text-container a:hover {
 }
 
 /* 9-------- */
+
+.form-container {
+  height: 45rem;
+  width: 56rem;
+}
+
+.form-container form {
+  margin-top: 6rem;
+  margin-left: 11rem;
+  height: 36rem;
+  width: 34rem;
+}
+
+.form-container input {
+  border: blueviolet solid;
+  border: rgb(190, 189, 189) solid;
+  height: 4rem;
+  width: 30rem;
+  margin: 1rem;
+}
+
+input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(146, 145, 145);
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  letter-spacing: 0.06rem;
+  padding-left: 1.2rem;
+  padding-top: 1rem;
+}
+
+select {
+  border: rgb(190, 189, 189) solid;
+  height: 4rem;
+  width: 30.4rem;
+  margin: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(146, 145, 145);
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  letter-spacing: 0.06rem;
+  padding-left: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.your-message textarea::placeholder {
+  height: 4rem;
+  width: 30.4rem;
+  margin: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(146, 145, 145);
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  letter-spacing: 0.06rem;
+  padding-left: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.your-message textarea {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 8rem;
+  width: 30rem;
+  border-color: rgb(146, 145, 145);
+}
+
+.btn {
+  height: 3.6rem;
+  width: 9rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  background: black;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #6b7073;
+}
+
+.blank-container {
+  height: 8rem;
+  width: 112rem;
+  display: flex;
+  border-bottom: 1px rgb(145, 144, 144) solid;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+
+/* 10-------- */
+
+.icons-container {
+  height: 5rem;
+  width: 33rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-items {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+
+.icon-items a {
+  margin-left: 1.6rem;
+  margin-top: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.icon-items img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 20%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(98, 98, 98);
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 0.16rem;
+  padding-bottom: 2rem;
+}
